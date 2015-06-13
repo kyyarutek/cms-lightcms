@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="themes/simple_v2/style.css" />
+	<meta name="keywords" content="{--(keywords)--}" /> 
+	<meta name="description" content="{--(description)--}" /> 
+	<title>{{site.title}} :: {{page.title}}</title>
+</head>
+<body>
+
+<div id="header">
+	<div id="logo">
+		<h1><a href="#">{{site.title}}</a></h1>
+		<h2>{{site.description}}</h2>
+	</div>
+	<div id="menu">
+		<ul>
+			{{menu.top}}
+		</ul>
+	</div>
+</div>
+
+<div id="page">
+	<div id="content">
+		<div class="post">
+			<h1 class="title">{{page.title}}</h1>
+			<div class="entry">
+				{{page.content}}
+			</div>
+		</div>
+	</div>
+	<div id="sidebar">
+    {{blocks}}
+	</div>
+    <p id="footer">{{site.footer}} | {{lcms.footer}}</p>
+	<div style="clear: both;">&nbsp;</div>
+</div>
+
+</body>
+</html>

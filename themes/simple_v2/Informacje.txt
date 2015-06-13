@@ -1,0 +1,8 @@
+﻿Folder z szablonem należy umieścić w katalogu "themes".
+
+Jest to szablon przystosowany przez Progo pod LekkiCMS 2.x
+
+Autorem szablonu jest MADSNAKE
+
+Szablon pod LekkiCMS 1.x
+http://forum.sruu.pl/thread-1716.html

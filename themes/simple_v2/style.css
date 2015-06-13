@@ -1,0 +1,293 @@
+body {
+	margin: 100px 0 0 0;
+	padding: 0;
+	background: #FFFFFF url(images/img01.gif) repeat-x;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333333;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	text-transform: lowercase;
+	font-weight: normal;
+	color: #3E3E3E;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+p, ul, ol {
+	margin: 0 0 2em 0;
+	text-align: justify;
+	line-height: 26px;
+	font-size: 11px;
+}
+
+a:link {
+	color: #333333;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration:underline;
+	color: #003448;
+}
+
+a:visited {
+	color: #333333;
+}
+
+img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin-right: 15px;
+}
+
+img.right {
+	float: right;
+	margin-left: 15px;
+}
+
+/* Form */
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+legend {
+	display: none;
+}
+
+input, textarea, select {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333333;
+}
+
+/* Header */
+
+#header {
+	width: 850px;
+	height: 82px;
+	margin: 0 auto 40px auto;
+	background: url(images/img02.gif) repeat-x left bottom;
+}
+
+#logo {
+	float: left;
+}
+
+#logo h1 {
+	font-size: 38px;
+	color: #494949;
+	text-shadow: 1px 1px 0px #c2c2c2;
+    filter: dropshadow(color=#c2c2c2, offx=1, offy=1);
+}
+
+#logo h1 sup {
+	vertical-align: text-top;
+	font-size: 24px;
+}
+
+#logo h1 a {
+	color: #494949;
+}
+
+#logo h2 {
+	margin-top: -5px;
+	font-size: 12px;
+	color: #A0A0A0;
+}
+
+#logo a {
+	text-decoration: none;
+}
+
+/* Menu */
+
+#menu {
+	float: right;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 15px 0 0 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	margin-left: 30px;
+	padding: 7px;
+	text-decoration: none;
+	font-size: 13px;
+	color: #000000;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
+
+/* Page */
+
+#page {
+	width: 850px;
+	margin: 0 auto;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 575px;
+}
+
+/* Post */
+
+.post .title {
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+	background: url(images/img02.gif) repeat-x left bottom;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 195px;
+	text-align:right;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style:none;
+	text-align:right;
+}
+
+#sidebar li {
+	margin-bottom: 5px;
+}
+
+#sidebar h2 {
+	margin-bottom: 10px;
+	background: url(images/img02.gif) repeat-x left bottom;
+	font-size: 16px;
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	padding-top: 20px;
+	text-align: center;
+	color: #999;
+}
+
+#footer a {
+	color: #476B77;
+}
+
+/***************************
+**** Begin form
+***************************/
+form {
+	margin: 0;
+}
+form label{
+	display: block;
+	font-weight: normal;
+	text-align: right;
+	width: 20%;
+	float: left;
+	margin-top: 4px;
+}
+form label span{
+	display: block;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: right;
+}
+form div.radio {
+	float: left;	
+	padding: 5px 3px;
+	width: 70%;
+	margin: 2px 0 20px 10px;
+}
+form input[type="text"], form input[type="password"] {
+	float: left;
+	font-size: 14px;
+	padding: 5px 3px;
+	border: solid 1px #227885;
+	width: 70%;
+	margin: 2px 0 20px 10px;
+	outline: 0;
+	color: #454545;
+}
+form input[type="text"]:focus, form input[type="password"]:focus, form textarea:focus {
+	box-shadow: 0px 0px 5px #40b0c1;
+}
+form textarea {
+	float: left;
+	font-size: 14px;
+	padding: 5px 3px;
+	border: solid 1px #227885;
+	width: 70%;
+	margin: 2px 0 20px 10px;
+	outline: 0;
+	height: 104px;
+	color: #454545;
+}
+form select {
+	float: left;
+	font-size: 14px;
+	padding: 5px 3px;
+	border: solid 1px #227885;
+	width: 71%;
+	margin: 2px 0 20px 10px;
+	outline: 0;
+}
+form input[type="radio"] {
+	margin-right: 2px;
+	margin-left: 5px;
+}
+form input[type="submit"], form button {
+	clear: both;
+	margin-left: 22%;
+	width: 125px;
+	height: 31px;
+	background: #227885;
+	text-align: center;
+	line-height: 31px;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	border: 0;
+}
+form input[type="submit"]:hover, form button:hover {
+	background: #3494a3;
+}
+form input[type="submit"]:active, form button:active {
+	line-height: 33px;
+}
